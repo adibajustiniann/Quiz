@@ -1,0 +1,90 @@
+html, body {
+    background-color:  #ebf1ff;
+    font-family: arial, sans-serif;
+    margin: 0;
+    font-size:large;
+  }
+
+
+/*Bagian Header*/
+.header{
+    background-color: #191f2f;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-bottom: 15PX;
+    color: #ffffff;
+}
+.navbar{
+    color: white;
+    position: fixed;
+    left: 90%;
+    top: 25px;
+    text-decoration: none;
+}
+
+/*Bagian Main Body*/
+.main{
+    width: 50%;
+    background-color: #191F2F;
+    height: 100%;
+    padding: 40px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+}
+.question{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.answer{
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.move{
+    text-align: right;
+}
+.prev {
+    background-color: #E6D4B9;
+    padding: 10px;
+    color: rgb(73, 13, 13);
+    text-decoration: none;
+    border-radius: 7px;
+}
+.next {
+    background-color: #E6D4B9;
+    padding: 10px;
+    color: rgb(99, 15, 15);
+    text-decoration: none;
+    border-radius: 7px;
+}
+/*Bagian Navigasi*/
+.navigation {
+    background-color: #e2c6c1;
+    padding: 10px;
+    margin-right: 10px;
+    color: rgb(85, 10, 10);
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.submit {
+    background-color: #E6D4B9;
+    padding: 10px;
+    color: rgb(99, 15, 15);
+    text-decoration: none;
+    border-radius: 7px;
+}
+.nav {
+    margin-top: 70px;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
